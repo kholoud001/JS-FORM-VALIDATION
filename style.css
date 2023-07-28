@@ -1,0 +1,54 @@
+
+body {
+    background-color: #5f957d;
+}
+
+
+.container{
+
+    /* display: flex; */
+    /* justify-content:space-around; */
+    /* align-content: center; */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 50%;
+    /* border: 1px solid black; */
+}
+
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text],input[type=date] ,textarea {
+    
+    display:flex;
+    width: 100%;
+    padding: 10px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; 
+    /* margin-bottom: 16px; Bottom margin */
+    /* resize: vertical Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  /* Style the submit button with a specific background color etc */
+input[type=button] {
+    background-color:#333;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: '40 px';
+  }
+
+  /* When moving the mouse over the submit button, add a  color */
+input[type=button]:hover {
+    background-color: #0c1310;
+  }
+
+
+  /* The alert message that the field must be filled out */
+  span{
+    color:red;
+    font-weight:bolder;
+  }

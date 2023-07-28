@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide show </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- forms -->
+  <section class="container">
+    <form name="MyForm">
+      <!-- email -->
+      <label for="mail">Mail</label>
+      <input type="text" id="mail" name="mail" placeholder="Your mail..">
+      <!-- <p><span id="p-mail"></span></p>  -->
+      <p><span id="sp-email"></span></p>
+
+ <!-- phone number -->
+      <label for="phone-number">Phone</label>
+      <input type="text" id="phone-number" name="phone-number" placeholder="+212 xxxxxxxxx">
+      <!-- <p><span id="p-phone"></span></p>  -->
+      <p><span id="sp-phone-number"></span></p>
+
+<!-- date -->
+      <label for="date">Date</label>
+      <input type="date" id="date" name="date" placeholder="date..">
+      <!-- <p><span id="p-date"></span></p>  -->
+      <p><span id="sp-date"></span></p>
+
+<!-- message -->
+      <label for="message">Your Message</label>
+      <!-- <textarea id="message" name="message" placeholder="Write something.." style="height:200px"> -->
+      <input type="text" id="message" name="message" placeholder="Write something.." style="height:200px" >
+      <!-- </textarea>  -->
+      <p><span id="sp-message"></span></p>
+      <!-- <p><span id="p-message"></span></p>  -->
+
+      <input type="button" value="Submit" onclick="affiche()">
+
+    </form>
+<!-- What to display -->
+<div id="display"> </div>
+  </section>
+
+  <script src="script.js">
+
+  </script>
+</body>
+
+</html>
